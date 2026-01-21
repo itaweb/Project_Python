@@ -1,7 +1,7 @@
 import random
 
 NUM_DIGITS = 3 # (!) Попробуйте задать эту константу равной 1 или 10
-MAX_GUESSES = 1 # (!) Попробуйте задать эту константу равной 1 или 100
+MAX_GUESSES = 3 # (!) Попробуйте задать эту константу равной 1 или 100
 
 def main():
     print('''Рогалики, дедуктивно-логическая игра.
@@ -44,7 +44,7 @@ Bagels -            ни одна цифра не верна.
         if not input('> ').lower().startswith('y'):
             break
 
-        print('Thanks for playing!')
+    print('Thanks for playing!')
 
 
 def getSecretNum():
